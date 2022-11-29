@@ -1,0 +1,142 @@
+
+    .left {
+        /* border: 2px solid red; */
+        color: aliceblue;
+        display: inline-block;
+        position: absolute;
+        left: 0px;
+        top: 25px;
+    }
+
+    .left img {
+        width: 110px;
+        filter: invert();
+        padding: 1px 70px;
+    }
+
+    .mid {
+        /* border: 2px solid red; */
+        color: aliceblue;
+        display: block;
+        width: 50%;
+        margin: 25px auto;
+
+
+    }
+
+    .right {
+        /* border: 2px solid red; */
+        color: aliceblue;
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 25px;
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 20px 35px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: orange;
+
+    }
+
+    .btn {
+        padding: 10px;
+        margin: 9px;
+        border-radius: 25px;
+        background-color: transparent;
+        color: aliceblue;
+        font-size: 17px;
+        border: 2px solid white;
+    }
+
+    .btn:hover {
+        background-color: gray;
+    }
+    .form-group input {
+        padding: 8px 117px;
+        margin: 16px -39px;
+        font-size: 13px;
+        text-align: center;
+        display: block;
+    }
+
+    .btn2 {
+        margin: 20px 122px;
+        border-radius: 25px;
+        background-color: transparent;
+        color: aliceblue;
+        font-size: 17px;
+        border: 2px solid white;
+        padding: 7px 7px;
+    }
+    .btn2:hover {
+        background-color: gray;
+    }
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+h1{
+    text-align: center;
+}
+p{    text-align: center;
+    position: initial;    
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('crossfit.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  input {
+    margin: 0.25em 0em 1em 0em;
+  }
+  input {
+    margin: 0.25em 0em 1em 0em;
+    outline: none;
+    padding: 0.5em;
+    border: none;
+    background-color: rgb(225, 225, 225);
+    border-radius: 0.25em;
+    color: black;
+  }
+  /* styles for button */
+button {
+    padding: 0.75em;
+    border: none;
+    outline: none;
+    background-color: rgb(68, 18, 232);
+    color: white;
+    border-radius: 0.25em;
+  }
+  
+  /* hover functionality for button */
+  button:hover {
+    cursor: pointer;
+    background-color: rgb(41, 4, 164);
+  }

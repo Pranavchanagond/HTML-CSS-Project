@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+    <title>Matrix Gym</title>
+    
+
+</head>
+
+
+
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img\logo.jpg" alt="">
+            <div style="text-align: center;    line-height: 37px;
+            font-size: 26px">
+
+
+                Matrix Gym
+            </div>
+        </div>
+        <!-- mid box for  navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <form>
+        <div class="container">
+            <h1>Register</h1>
+            <p>Kindly fill in this form to register.</p>
+            <label for="username"><b>Username</b></label> 
+            <input
+          type="text"
+          placeholder="Enter username."
+          name="username"
+          id="username"
+          required
+        />
+         <!-- label and input for email -->
+         <label for="email"><b>Email</b></label>
+         <input
+           type="text"
+           placeholder="Enter Email"
+           name="email"
+           id="email"
+           required
+         />
+         <!-- label and input for password -->
+         <label for="pwd"><b>Password</b></label>
+         <input
+           type="password"
+           placeholder="Enter Password"
+           name="pwd"
+           id="pwd"
+           required
+         />
+         <!-- label and input for repeated password -->
+         <label for="pwd-repeat"><b>Repeat Password</b></label>
+         <input
+           type="password"
+           placeholder="Repeat Password"
+           name="pwd-repeat"
+           id="pwd-repeat"
+           required
+         />
+          <!-- submit button -->
+        <button type="submit">Register</button>
+        </div>
+        
+        <div>
+            <p>Already have an account? <a href="#">Log in</a>.</p>
+        </div>
+  </form>
+</body>
+
+</html>
