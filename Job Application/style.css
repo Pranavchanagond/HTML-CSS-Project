@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(219, 217, 217);
+    margin: 0 auto;
+}
+span{
+    font-size: 20px;
+}
+
+.job-page{
+    background-color: white;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    padding: 20px;
+}
+
+.form-container{
+    /* background-color: lightpink; */
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+.form-control label{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+.form-control input,select,textarea{
+    padding: 6px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 217, 217);
+    /* border: 1px solid lightblue; */
+}
+
+.textarea-control{
+    grid-column: 1 / span 2;
+}
+
+.textarea-control textarea{
+    width: 96%;
+}
+label{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 20px;
+}
+ button{
+    padding: 8px 14px;
+    background-color: red;
+    color: white;
+    border: 1px;
+    border-radius: 10px;
+ }
+ input:focus{
+    outline-color: red;
+ }

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: Roboto;
+}
+
+.lgtext{
+    font-size: 30px;
+}
+.ptext{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+
+    top: 50%;
+    width: 100%;
+    position: absolute;
+    
+
+}
+
+.sec1{
+    background-image: url(/img/developer.png);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat; 
+    min-height: 100vh;
+    position: relative;
+}
+.sec2{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.sec2 span{
+    font-size: 40px;
+}
+
+.sec3{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    justify-content: center;
+    width: 300px;
+    margin: 50px auto;
+    gap: 30px;
+}
+
+@media (max-width: 677px){
+    .sec3{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 678px) and (max-width: 1016px){
+    .sec3{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/* 
+.grid-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.card:hover{
+    transform:scale(1.04);
+}
+
+.card{
+    /* display: grid; */
+    height: 400px;
+    min-width: 320px;
+    /* border: 1px solid none; */
+    box-shadow: 3px 5px 5px rgb(1 1 1 / 20%);
+    border-radius: 10px;
+
+}
+.card-img{
+    height: 100%;
+}
+.card-info{
+    padding: 20px ;
+}
+.card-info h1{
+    margin-bottom: 5px;
+}
+.card-info p{
+    font-size: 18px;
+}
+
+.sec4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.contact{
+    background-color: #515603;
+
+}
+.contact h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.contact p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.about{
+    background-color: #722300;
+    
+}
+.about,.contact{
+    height: 300px;
+    padding: 30px 30px;
+}
+
+.about h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.about p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+

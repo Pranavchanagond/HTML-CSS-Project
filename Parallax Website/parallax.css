@@ -1,0 +1,51 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato";
+}
+
+.pimg1{
+    background-image: url(img/image1.png);
+    height: 100%;   
+}
+.pimg1,.pimg2,.pimg3{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    font-size: 30px;
+    padding: 15px 15px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    color: white;
+    text-transform: uppercase;
+}
+
+.textbg{
+    background: rgb(50, 50, 50);
+    padding: 20px;
+}
+
+.pimg2{
+    background-image: url(img/image2.png);
+    height: 400px;
+}
+.pimg3{
+    background-image: url(img/image3.png);
+    height: 400px;
+}
+.section1{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 80px;    
+    color: #666;
+}
+
+
+
