@@ -1,2 +1,3 @@
 
-![Job_Application](https://user-images.githubusercontent.com/112197866/210707759-1b4a51ff-28e7-4698-be2e-4c686dfb5959.gif)
+![Job Application](https://user-images.githubusercontent.com/112197866/210710156-4a0aba4f-d05f-40bf-a704-2b6f2ed449d1.gif)
+
